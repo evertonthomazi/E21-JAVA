@@ -1,6 +1,6 @@
 import java.io.*;
 
- public class Principal{
+ public class batalhaNaval{
 
  public static String tabuleiro[][]= new String[8][8];//cria um tabuleiro  8x8//
  public static int posicao[][]  = new int[8][8];//posicoes dos barcos no tabuleiro//
