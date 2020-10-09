@@ -1,12 +1,14 @@
 package Petshop;
 
-public class Pet {
+public abstract class Pet {
+
     private String nome;
     private String tipo;
     private String cor;
     private Dono dono;
-    
-    public Pet(){}
+
+    public Pet() {
+    }
 
     public String getNome() {
         return nome;
@@ -39,6 +41,9 @@ public class Pet {
     public void setDono(Dono dono) {
         this.dono = dono;
     }
-    
-    
+
+    public String emiteSom() {
+        return new String("Arrrgh!");
+    }
+
 }

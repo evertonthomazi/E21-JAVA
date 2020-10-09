@@ -3,13 +3,14 @@ package Petshop;
 import java.util.ArrayList;
 
 public class Dono {
+
     private String nome;
     private String endereco;
     private int idade;
     private ArrayList<Pet> pet = new ArrayList<Pet>();
-    
-    public Dono(){}
 
+    public Dono() {
+    }
 
     public Dono(String nome) {
         this.nome = nome;
@@ -38,10 +39,9 @@ public class Dono {
     public void setPet(Pet pet) {
         this.pet.add(pet);
     }
-    
+
     public ArrayList<Pet> getPets() {
         return this.pet;
     }
-    
-    
+
 }
