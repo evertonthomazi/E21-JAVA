@@ -1,0 +1,49 @@
+[
+    {
+        "name": "braspag/braspag-php-sdk",
+        "version": "0.4",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ricardoabdalla/BraspagPhpSdk.git",
+            "reference": "11a7caed4e3c0d460116a1278769f288d9f33d92"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ricardoabdalla/BraspagPhpSdk/zipball/11a7caed4e3c0d460116a1278769f288d9f33d92",
+            "reference": "11a7caed4e3c0d460116a1278769f288d9f33d92",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.6.37"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5"
+        },
+        "time": "2019-03-09T14:02:10+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "BraspagSdk\\": "src/BraspagSdk"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ricardo Abdalla",
+                "email": "rabdalla@braspag.com.br"
+            },
+            {
+                "name": "Maurici Ferreira Junior",
+                "email": "mjunior@braspag.com.br"
+            }
+        ],
+        "description": "SDK para integração com plataforma Braspag"
+    }
+]
